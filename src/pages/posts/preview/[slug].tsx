@@ -17,7 +17,7 @@ interface PostPreviewProps {
     }
 }
 
-export default function PostPreview({post}: PostPreviewProps){
+export default function PostPreview({post}: PostPreviewProps | null){
     const [ session ] = useSession();
 
     useEffect(() =>{
