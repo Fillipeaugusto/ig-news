@@ -17,3 +17,9 @@
     filter: brightness(0.8);
   }
 }
+
+@media (max-width: 740px) {
+  .subscribeButton {
+    width: 200px;
+  }
+}

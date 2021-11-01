@@ -9,6 +9,33 @@
   justify-content: space-between;
 }
 
+@media (max-width: 740px) {
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 300px;
+      margin-top: 2rem;
+    }
+  }
+
+  .hero {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    margin-top: 50rem;
+  }
+}
+
 .hero {
   max-width: 600px;
 

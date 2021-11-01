@@ -43,6 +43,14 @@
       }
     }
 
+    a {
+      color: var(--yellow-500);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
     &.previewContent {
       background: linear-gradient(var(--gray-100), transparent);
       background-clip: text;
